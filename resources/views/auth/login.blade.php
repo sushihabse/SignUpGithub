@@ -67,7 +67,7 @@
 
                            <div>
                             <a href="{{route('login.provider',['provider'=>'github'])}}">Github</a>
-                            <a href="#">Github</a>
+                            <a href="{{route('login.provider',['provider'=>'google'])}}">Google</a>
                            </div>
          
 

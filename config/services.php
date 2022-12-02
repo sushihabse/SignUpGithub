@@ -37,5 +37,10 @@ return [
         'client_secret' => env('GITHUB_CLIENT_SECRET'),
         'redirect' => env('GITHUB_CLIENT_REDIRECT'),
     ],
+    'google' => [
+        'client_id' => env('Google_site_id'),
+        'client_secret' => env('google_sequrity_key'),
+        'redirect' => env('google_client_redirect'),
+    ],
 
 ];
